@@ -5,5 +5,21 @@
   "main": "index.js",
   "repository": "git@github.com:HackerFox/Abdi.git",
   "author": "ridho muhammad <ulunmuhammadridho@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "abdi": "./bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "compressing": "^1.4.0",
+    "inquirer": "^6.3.1",
+    "node-tool-utils": "^1.2.1",
+    "ora": "^3.4.0",
+    "progress-bar-webpack-plugin": "^1.12.1",
+    "shelljs": "^0.8.3",
+    "stats-webpack-plugin": "^0.7.0",
+    "urllib": "^2.33.3",
+    "webpack-bundle-analyzer": "^3.3.2"
+  }
 }

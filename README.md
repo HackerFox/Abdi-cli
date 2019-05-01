@@ -6,3 +6,8 @@ A Project Waiter for CLI Tools
 ```bash
 $ npm i abdi-cli -g
 ```
+
+### Commands
+```bash
+  check:npm-name [name]        Check whether a package name is available on npm
+```
